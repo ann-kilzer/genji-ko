@@ -1,0 +1,7 @@
+[tool.poetry]
+name = "genjiko"
+readme = "README.md"
+packages = [{include = "genjiko.py", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
